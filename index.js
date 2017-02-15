@@ -1,16 +1,26 @@
-const users = require('./settings.json').users;
-const checkins = require('./lastCheckins.json');
-const getCheckins = require('./untappdClient');
-const mapToSap = require('./mapToSap');
+const settings = require('./settings.json');
+const checkins = require('./data/checkins.json');
+
+const untappdClient = require('./untappdClient');
+const sapClient = require('./sapClient');
+const mapper = require('./mapper');
 const updateCheckins = require('./updateCheckins');
 
-users.forEach(user => {
-	getCheckins(user, checkins[user])
-		.then(mapToSap)
-		.then(obj => {
-			if(obj.length > 0) {
-				checkins[user] = obj[0].checkin_id
-			}
-		})
-		.then(() => updateCheckins(checkins));
-});
+const untappd = untappdClient(settings.untappd);
+const sap = sapClient(settings.sap);
+
+untappd
+	.getAllCheckins(settings.users, checkins)
+	.then(mapper)
+	.then(sap.uploadData)
+	.then(data => updateCheckins(data, checkins))
+	.catch(e => console.error(e));
+
+// NOTE: For testing
+// const results = require('./data/results_empty.json');
+// Promise
+// 	.resolve(results)
+// 	.then(mapper)
+// 	.then(sap.uploadData)
+// 	.then(data => updateCheckins(data, checkins))
+// 	.catch(e => console.error(e));

@@ -1,23 +1,31 @@
+const _ = require('lodash');
 const rp = require('request-promise-native');
-const settings = require('./settings.json').untappd;
 
-const getCheckins = (user, lastCheckin) => {
-	const options = {
-		uri: `${settings.host}${settings.path}/${user}`,
-		qs: {
-			client_id: settings.clientId,
-			client_secret: settings.clientSecret,
-			// min_id: lastCheckin
-		},
-		json: true
-	};
+const untappdClient = settings => {
+	const getAllCheckins = (users, lastCheckins) => {
+		const results = users.map(user => getCheckins(user, lastCheckins[user]));
 
-	console.log(user + ' ' + lastCheckin);
+		return Promise.all(results);
+	}
 
-	return rp(options)
-		.then(result => result.response.checkins.items)
-		// .then(a => console.log(a))
-		.catch(error => console.error(error));
+	const getCheckins = (user, lastCheckin) => {
+		const options = {
+			uri: `${settings.host}${settings.path}/${user}`,
+			qs: {
+				client_id: settings.clientId,
+				client_secret: settings.clientSecret,
+				min_id: lastCheckin
+			},
+			json: true
+		};	
+
+		return rp(options).then(result => ({ 
+			user,
+			items: _.has(result, 'response.checkins.items') ? result.response.checkins.items : []
+		}));
+	}
+
+	return { getAllCheckins };
 };
 
-module.exports = getCheckins;
+module.exports = untappdClient;

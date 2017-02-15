@@ -1,0 +1,17 @@
+{
+	"untappd": {
+		"host": "https://api.untappd.com",
+		"path": "/v4/user/checkins",
+		"clientId": "XXX",
+		"clientSecret": "XXX"
+	},
+	"sap": {
+		"host": "https://XXX",
+		"path": "XXX",
+		"token": "XXX"
+	},
+	"users":[
+		"user1",
+		"user2"
+	]
+}
