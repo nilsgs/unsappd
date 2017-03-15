@@ -9,6 +9,8 @@ const updateCheckins = require('./updateCheckins');
 const untappd = untappdClient(settings.untappd);
 const sap = sapClient(settings.sap);
 
+console.info('Starting Unsappd');
+
 untappd
 	.getAllCheckins(settings.users, checkins)
 	.then(mapper)
@@ -17,7 +19,7 @@ untappd
 	.catch(e => console.error(e));
 
 // NOTE: For testing
-// const results = require('./data/results_empty.json');
+// const results = require('./data/results.json');
 // Promise
 // 	.resolve(results)
 // 	.then(mapper)

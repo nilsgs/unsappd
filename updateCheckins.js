@@ -10,6 +10,8 @@ const updateCheckins = (values, original) => {
 		return result;
 	}, original);
 
+	console.info('Updating checkins');
+
 	jsonfile.writeFile('./data/checkins.json', obj, { spaces: 2 }, err => {
 		if(err) console.error(err);
 	});

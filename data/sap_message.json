@@ -1,0 +1,29 @@
+{
+  "mode": "sync",
+  "messageType": "ac9325a7527e8a875ce6",
+  "messages": [
+    {
+      "checkin_id": 427144574,
+      "created_at": "2017-03-12T00:48:26.000Z",
+      "date": "20170312",
+      "date_formated": "12.03.2017",
+      "day_in_week": "Sunday",
+      "month_year": "2017.03",
+      "month": "March",
+      "year": "2017",
+      "time_in_day": "01",
+      "rating_score": 4,
+      "user_name": "Karmaleech",
+      "first_name": "Alexander",
+      "beer_bid": 1974761,
+      "beer_name": "Juiceaholic ",
+      "beer_style": "IPA - American",
+      "beer_abv": 6.7,
+      "brewery_id": 328329,
+      "brewery_name": "ØLKYMISTEN",
+      "brewery_country": "Norway",
+      "count": 1,
+      "target": 5
+    }
+  ]
+}

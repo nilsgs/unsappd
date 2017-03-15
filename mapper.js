@@ -14,14 +14,45 @@ var removeFalsies = function (obj) {
 
 _.mixin({ 'removeFalsies': removeFalsies });
 
-const superOM = new SuperOM();
+const formatDate = (date, format) => moment(date, 'ddd, DD MMM YYYY HH:mm:ss Z').format(format);
+
 const map = {
 	sap: {
 		'checkin_id': 'checkin_id',
-		'created_at': {
-			'key': 'created_at',
-			'transform': value => moment(value, 'ddd, DD MMM YYYY HH:mm:ss Z')
-		},
+		'created_at': [
+			{
+				'key': 'created_at',
+				'transform': value => moment(value, 'ddd, DD MMM YYYY HH:mm:ss Z')
+			},
+			{
+				'key': 'date',
+				'transform': value => formatDate(value, 'YYYYMMDD')
+			},
+			{
+				'key': 'date_formated',
+				'transform': value => formatDate(value, 'DD.MM.YYYY')
+			},
+			{
+				'key': 'day_in_week',
+				'transform': value => formatDate(value, 'dddd')
+			},
+			{
+				'key': 'month_year',
+				'transform': value => formatDate(value, 'YYYY.MM')
+			},
+			{
+				'key': 'month',
+				'transform': value => formatDate(value, 'MMMM')
+			},
+			{
+				'key': 'year',
+				'transform': value => formatDate(value, 'YYYY')
+			},
+			{
+				'key': 'time_in_day',
+				'transform': value => formatDate(value, 'HH')
+			}
+		],
 		'checkin_comment': 'checkin_comment',
 		'rating_score': 'rating_score',
 		'user.user_name': 'user_name',
@@ -69,6 +100,7 @@ const map = {
 		'comments.total_count': 'comment_count',
 		'toasts.total_count': 'toast_count',
 		'badges.count': 'badge_count',
+		'media.items[0].photo.photo_img_og': 'photo_url',
 		'sap-count': {
 			'key': 'count',
 			'default': () => 1
@@ -80,11 +112,16 @@ const map = {
 	}
 };
 
+const superOM = new SuperOM();
 superOM.addMapper(map, 'default');
 
-const mapper = results => results.map(result => ({
+const mapper = results => {
+	console.info('Starting mapping');
+
+	return results.map(result => ({
 		user: result.user,
 		checkins: superOM.mapObject(_.removeFalsies(result.items), { mapper: 'default', map: 'sap', clean: true })
-}));
+	}));
+};
 
 module.exports = mapper;

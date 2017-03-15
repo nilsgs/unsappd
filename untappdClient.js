@@ -8,6 +8,19 @@ const untappdClient = settings => {
 		return Promise.all(results);
 	}
 
+	const getCheckinsFromResponse = response => {
+		const isPaginated = _.has(response, 'checkins');
+		const isNotPaginated = _.has(response, 'items');
+
+		if(isPaginated){
+			return response.checkins.items;
+		}
+		else if(isNotPaginated){ 
+			return response.items;
+		}
+		else return [];
+	}
+
 	const getCheckins = (user, lastCheckin) => {
 		const options = {
 			uri: `${settings.host}${settings.path}/${user}`,
@@ -19,10 +32,17 @@ const untappdClient = settings => {
 			json: true
 		};	
 
-		return rp(options).then(result => ({ 
-			user,
-			items: _.has(result, 'response.checkins.items') ? result.response.checkins.items : []
-		}));
+		console.info(`Untappd: Getting checkins for user: ${user} from checkin ${lastCheckin}`);
+
+		return rp(options).then(result => {
+			const checkins = getCheckinsFromResponse(result.response);
+			console.info(`\tFound ${checkins.length} checkins for ${user}`); 
+
+			return {
+				user,
+				items: checkins
+			};
+		});
 	}
 
 	return { getAllCheckins };
