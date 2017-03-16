@@ -5,7 +5,3475 @@
   },
   {
     "user": "thorarne",
-    "items": []
+    "items": [
+      {
+        "checkin_id": 417298473,
+        "created_at": "Tue, 14 Feb 2017 20:23:50 +0000",
+        "checkin_comment": "Fotball, øl, valentine ikke i prioritert rekkefølge!",
+        "rating_score": 3,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 822900,
+          "beer_name": "Bohemian Rhapsody",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-822900_f65ff_sm.jpeg",
+          "beer_style": "Pilsner - Czech",
+          "beer_slug": "cap-brewery-bohemian-rhapsody",
+          "beer_abv": 4.2,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 61005,
+          "brewery_name": "CAP Brewery",
+          "brewery_slug": "cap-brewery",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-CAPBrewery_61005_0df89.jpeg",
+          "country_name": "Sweden",
+          "contact": {
+            "twitter": "capbrewery",
+            "facebook": "http://www.facebook.com/capbrewery",
+            "instagram": "",
+            "url": "http://www.capbrewery.com/"
+          },
+          "location": {
+            "brewery_city": "Stockholm",
+            "brewery_state": "Sweden",
+            "lat": 59.2988,
+            "lng": 18.0032
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 0,
+          "count": 0,
+          "auth_toast": null,
+          "items": []
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 5963,
+              "user_badge_id": 171728149,
+              "badge_name": "Riding Steady",
+              "badge_description": "Want to enjoy a day of brews, but need to keep your wits sharp? There are plenty of delicious brews under 5% for you to sip on throughout the day. That's 5 different beers with an ABV of 5% and lower. Try 5 more for Level 2!",
+              "created_at": "Tue, 14 Feb 2017 20:23:50 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_RidingSteady_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_RidingSteady_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_RidingSteady_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 416334672,
+        "created_at": "Sat, 11 Feb 2017 22:50:28 +0000",
+        "checkin_comment": "Overraskende greit øl ",
+        "rating_score": 3,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1152695,
+          "beer_name": "Vette Kveiteøl",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1152695_acc7b_sm.jpeg",
+          "beer_style": "Witbier",
+          "beer_slug": "sma-vesen-vette-kveiteol",
+          "beer_abv": 4.7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 56198,
+          "brewery_name": "Små Vesen",
+          "brewery_slug": "sma-vesen",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-56198_963af.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "smaavesen",
+            "facebook": "https://www.facebook.com/smaavesen",
+            "instagram": "smaavesen",
+            "url": "http://smaavesen.no"
+          },
+          "location": {
+            "brewery_city": "2910 Aurdal",
+            "brewery_state": "Anmarkrud",
+            "lat": 60.9426,
+            "lng": 9.36115
+          },
+          "brewery_active": 1
+        },
+        "venue": {
+          "venue_id": 177111,
+          "venue_name": "Hemsedal Skisenter",
+          "venue_slug": "hemsedal-skisenter",
+          "primary_category": "Outdoors & Recreation",
+          "parent_category_id": "4d4b7105d754a06377d81259",
+          "categories": {
+            "count": 1,
+            "items": [
+              {
+                "category_name": "Ski Area",
+                "category_id": "4bf58dd8d48988d1e9941735",
+                "is_primary": true
+              }
+            ]
+          },
+          "location": {
+            "venue_address": "",
+            "venue_city": "Hemsedal",
+            "venue_state": "Buskerud",
+            "venue_country": "Norge",
+            "lat": 60.8604,
+            "lng": 8.5155
+          },
+          "contact": {
+            "twitter": "",
+            "venue_url": ""
+          },
+          "public_venue": true,
+          "foursquare": {
+            "foursquare_id": "4b7549a4f964a52085042ee3",
+            "foursquare_url": "http://4sq.com/bPQdnD"
+          },
+          "venue_icon": {
+            "sm": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/ski_snowboard_bg_64.png",
+            "md": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/ski_snowboard_bg_88.png",
+            "lg": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/ski_snowboard_bg_88.png"
+          },
+          "is_verified": false
+        },
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 0,
+          "count": 0,
+          "auth_toast": null,
+          "items": []
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 5631,
+              "user_badge_id": 171250522,
+              "badge_name": "Wheel of Styles (Level 2)",
+              "badge_description": "Round and round the wheel goes! Which style you’ll be drinking, nobody knows! Your desire to explore different styles is inspiring. Keep it up! That's a check-in to at least 10 different styles. Try 5 more for Level 3!",
+              "created_at": "Sat, 11 Feb 2017 22:50:29 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 416332832,
+        "created_at": "Sat, 11 Feb 2017 22:48:41 +0000",
+        "checkin_comment": "Litt kjedelig:-)",
+        "rating_score": 1.5,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 260752,
+          "beer_name": "Spell-Ola Seiersøl",
+          "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+          "beer_style": "Lager - Pale",
+          "beer_slug": "roros-bryggeri-og-mineralvannfabrikk-spell-ola-seiersol",
+          "beer_abv": 4.7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 48352,
+          "brewery_name": "Røros Bryggeri Og Mineralvannfabrikk",
+          "brewery_slug": "r-ros-bryggeri-og-mineralvannfabrikk",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-48352_1c70b.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "url": "http://www.rorosbryggeri.no/"
+          },
+          "location": {
+            "brewery_city": "Røros",
+            "brewery_state": "",
+            "lat": 62.5763,
+            "lng": 11.3867
+          },
+          "brewery_active": 1
+        },
+        "venue": {
+          "venue_id": 177111,
+          "venue_name": "Hemsedal Skisenter",
+          "venue_slug": "hemsedal-skisenter",
+          "primary_category": "Outdoors & Recreation",
+          "parent_category_id": "4d4b7105d754a06377d81259",
+          "categories": {
+            "count": 1,
+            "items": [
+              {
+                "category_name": "Ski Area",
+                "category_id": "4bf58dd8d48988d1e9941735",
+                "is_primary": true
+              }
+            ]
+          },
+          "location": {
+            "venue_address": "",
+            "venue_city": "Hemsedal",
+            "venue_state": "Buskerud",
+            "venue_country": "Norge",
+            "lat": 60.8604,
+            "lng": 8.5155
+          },
+          "contact": {
+            "twitter": "",
+            "venue_url": ""
+          },
+          "public_venue": true,
+          "foursquare": {
+            "foursquare_id": "4b7549a4f964a52085042ee3",
+            "foursquare_url": "http://4sq.com/bPQdnD"
+          },
+          "venue_icon": {
+            "sm": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/ski_snowboard_bg_64.png",
+            "md": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/ski_snowboard_bg_88.png",
+            "lg": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/ski_snowboard_bg_88.png"
+          },
+          "is_verified": false
+        },
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 0,
+          "count": 0,
+          "auth_toast": null,
+          "items": []
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 110773065,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2017_02_11/22bbfaf485af0a07e2c29497088e446b_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2017_02_11/22bbfaf485af0a07e2c29497088e446b_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2017_02_11/22bbfaf485af0a07e2c29497088e446b_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2017_02_11/22bbfaf485af0a07e2c29497088e446b_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 79,
+              "user_badge_id": 171249578,
+              "badge_name": "Brew Traveler",
+              "badge_description": "You're exploring this great country the best way possible, one delicious beer at a time! That's one beer while in at least 5 states or countries.",
+              "created_at": "Sat, 11 Feb 2017 22:48:41 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_traveller_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_traveller_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_traveller_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 403623214,
+        "created_at": "Sat, 07 Jan 2017 18:54:29 +0000",
+        "checkin_comment": "Var litt jul igjen fortsatt",
+        "rating_score": 4.75,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 8767,
+          "beer_name": "Delirium Noël / Christmas",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-8767_49d65_sm.jpeg",
+          "beer_style": "Winter Ale",
+          "beer_slug": "brouwerij-huyghe-delirium-noel-christmas",
+          "beer_abv": 10,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 285,
+          "brewery_name": "Brouwerij Huyghe",
+          "brewery_slug": "brouwerij-huyghe",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-BrouwerijHuyghe_285.jpeg",
+          "country_name": "Belgium",
+          "contact": {
+            "twitter": "Deliriumbrewery",
+            "facebook": "http://www.facebook.com/Deliriumbrewery",
+            "instagram": "",
+            "url": "http://www.delirium.be"
+          },
+          "location": {
+            "brewery_city": "Melle",
+            "brewery_state": "Oost-Vlaanderen",
+            "lat": 51.0002,
+            "lng": 3.80523
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 1,
+          "count": 1,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 403623214,
+              "comment_id": 31221442,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Digg øl det der :-)",
+              "created_at": "Sun, 08 Jan 2017 08:43:31 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 321727788,
+              "like_owner": false,
+              "created_at": "Sun, 08 Jan 2017 08:43:09 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 106723151,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2017_01_07/be0f782515f86751a8efd8daf9fbce90_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2017_01_07/be0f782515f86751a8efd8daf9fbce90_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2017_01_07/be0f782515f86751a8efd8daf9fbce90_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2017_01_07/be0f782515f86751a8efd8daf9fbce90_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 135,
+              "user_badge_id": 164475070,
+              "badge_name": "Belgian Holiday",
+              "badge_description": "You obviously are a big fan of Belgian Beer, and rightfully so! Three cheers to the great Belgian beers and their uniquely crafted flavors! That's 5 different beers from Belgium! Try 5 more for Level 2!",
+              "created_at": "Sat, 07 Jan 2017 18:54:29 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_belgianHoliday_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_belgianHoliday_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_belgianHoliday_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 395694939,
+        "created_at": "Mon, 19 Dec 2016 20:09:57 +0000",
+        "checkin_comment": "Jule porter tappa i Arendal? Kommer noe brukbart fra Arendal også da:-)",
+        "rating_score": 3.75,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1793835,
+          "beer_name": "Hans Trapp",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1793835_c2327_sm.jpeg",
+          "beer_style": "Porter - Other",
+          "beer_slug": "cervisiam-bryggeri-hans-trapp",
+          "beer_abv": 7.5,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 197724,
+          "brewery_name": "Cervisiam Bryggeri",
+          "brewery_slug": "cervisiam-bryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-197724_2f360.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "cervisiambrygg",
+            "facebook": "https://www.facebook.com/cervisiambryggeri",
+            "instagram": "cervisiamno",
+            "url": "http://cervisiam.no"
+          },
+          "location": {
+            "brewery_city": "Oslo",
+            "brewery_state": "0177",
+            "lat": 59.9191,
+            "lng": 10.7481
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 1,
+          "count": 1,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 395694939,
+              "comment_id": 30664787,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Jeg likte den der veldig godt!",
+              "created_at": "Tue, 20 Dec 2016 21:17:11 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 312431346,
+              "like_owner": false,
+              "created_at": "Tue, 20 Dec 2016 21:16:50 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 104062056,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_12_19/9c1e65a4e2aa3ccefa4065bfd5a49384_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_12_19/9c1e65a4e2aa3ccefa4065bfd5a49384_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_12_19/9c1e65a4e2aa3ccefa4065bfd5a49384_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_12_19/9c1e65a4e2aa3ccefa4065bfd5a49384_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 788,
+              "user_badge_id": 158844597,
+              "badge_name": "Photogenic Brew (Level 3)",
+              "badge_description": "It takes the perfect amount light, the right framing and a touch of creative love to get the perfect picture of your brew. Now it’s time to drink it! That’s 15 check-ins with a photo. ",
+              "created_at": "Mon, 19 Dec 2016 20:09:57 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_beertography_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_beertography_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 392933775,
+        "created_at": "Sun, 11 Dec 2016 18:43:38 +0000",
+        "checkin_comment": "Mmmmmmm...",
+        "rating_score": 4.5,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1793271,
+          "beer_name": "Juleøl (2016)",
+          "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+          "beer_style": "Traditional Ale",
+          "beer_slug": "schouskjelleren-mikrobryggeri-juleol-2016",
+          "beer_abv": 7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 2062,
+          "brewery_name": "Schouskjelleren Mikrobryggeri",
+          "brewery_slug": "schouskjelleren-mikrobryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-SchouskjellerenMikrobryggeri_2062.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "http://www.facebook.com/Schouskjelleren",
+            "instagram": "",
+            "url": ""
+          },
+          "location": {
+            "brewery_city": "Oslo",
+            "brewery_state": "",
+            "lat": 59.9176,
+            "lng": 10.759
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 4,
+          "count": 4,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 392933775,
+              "comment_id": 30474962,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Skjera????",
+              "created_at": "Mon, 12 Dec 2016 12:07:14 +0000",
+              "comment_source": "API"
+            },
+            {
+              "user": {
+                "uid": 1468888,
+                "user_name": "ThorArne",
+                "first_name": "Thor Arne",
+                "last_name": "D.",
+                "bio": "",
+                "location": "Oslo",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/ThorArne"
+              },
+              "checkin_id": 392933775,
+              "comment_id": 30474966,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Hva? Noe jeg har gått glipp av?",
+              "created_at": "Mon, 12 Dec 2016 12:08:22 +0000",
+              "comment_source": "API"
+            },
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 392933775,
+              "comment_id": 30474967,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Party på deg hver dag jo :-)",
+              "created_at": "Mon, 12 Dec 2016 12:08:59 +0000",
+              "comment_source": "API"
+            },
+            {
+              "user": {
+                "uid": 1468888,
+                "user_name": "ThorArne",
+                "first_name": "Thor Arne",
+                "last_name": "D.",
+                "bio": "",
+                "location": "Oslo",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/ThorArne"
+              },
+              "checkin_id": 392933775,
+              "comment_id": 30474973,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Nei. 1 øl er ikje party:-) bare kos det med god mat og drikje",
+              "created_at": "Mon, 12 Dec 2016 12:10:56 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 309256068,
+              "like_owner": false,
+              "created_at": "Mon, 12 Dec 2016 12:07:05 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 103145946,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_12_11/c05d9b9f5375ca06e30cfc899992cc86_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_12_11/c05d9b9f5375ca06e30cfc899992cc86_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_12_11/c05d9b9f5375ca06e30cfc899992cc86_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_12_11/c05d9b9f5375ca06e30cfc899992cc86_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 2,
+              "user_badge_id": 157371047,
+              "badge_name": "Apprentice",
+              "badge_description": "Looks like you're getting around. You've enjoyed at least 25 different beers!",
+              "created_at": "Sun, 11 Dec 2016 18:43:38 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_check25_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_check25_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_check25_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 392331541,
+        "created_at": "Sat, 10 Dec 2016 19:05:42 +0000",
+        "checkin_comment": "Snart jul? Jolagåva er i allefall pakka ut!",
+        "rating_score": 4.5,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1850879,
+          "beer_name": "Sterk Jolagåva (2016)",
+          "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+          "beer_style": "Winter Warmer",
+          "beer_slug": "voss-fellesbryggeri-sterk-jolagava-2016",
+          "beer_abv": 6.5,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 259267,
+          "brewery_name": "Voss Fellesbryggeri",
+          "brewery_slug": "voss-fellesbryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-259267_a7a24.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "url": "http://fellesbryggeri.no/#intro-2"
+          },
+          "location": {
+            "brewery_city": "5700 Voss",
+            "brewery_state": "",
+            "lat": 60.6348,
+            "lng": 6.46028
+          },
+          "brewery_active": 1
+        },
+        "venue": {
+          "venue_id": 689733,
+          "venue_name": "Carl Berners Plass (T)",
+          "venue_slug": "carl-berners-plass-t",
+          "primary_category": "Travel & Transport",
+          "parent_category_id": "4d4b7105d754a06379d81259",
+          "categories": {
+            "count": 1,
+            "items": [
+              {
+                "category_name": "Metro Station",
+                "category_id": "4bf58dd8d48988d1fd931735",
+                "is_primary": true
+              }
+            ]
+          },
+          "location": {
+            "venue_address": "Carl Berners Plass",
+            "venue_city": "Oslo",
+            "venue_state": "Oslo",
+            "venue_country": "Norge",
+            "lat": 59.926,
+            "lng": 10.7774
+          },
+          "contact": {
+            "twitter": "",
+            "venue_url": ""
+          },
+          "public_venue": true,
+          "foursquare": {
+            "foursquare_id": "4b0847c3f964a5200a0823e3",
+            "foursquare_url": "http://4sq.com/damqYN"
+          },
+          "venue_icon": {
+            "sm": "https://ss3.4sqi.net/img/categories_v2/travel/subway_bg_64.png",
+            "md": "https://ss3.4sqi.net/img/categories_v2/travel/subway_bg_88.png",
+            "lg": "https://ss3.4sqi.net/img/categories_v2/travel/subway_bg_88.png"
+          },
+          "is_verified": false
+        },
+        "comments": {
+          "total_count": 1,
+          "count": 1,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 392331541,
+              "comment_id": 30420375,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "God jul :-)",
+              "created_at": "Sat, 10 Dec 2016 19:09:00 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 308295814,
+              "like_owner": false,
+              "created_at": "Sat, 10 Dec 2016 19:08:43 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 102953386,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_12_10/6448e51af34c2ddf3a96f9e9e0cd1e68_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_12_10/6448e51af34c2ddf3a96f9e9e0cd1e68_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_12_10/6448e51af34c2ddf3a96f9e9e0cd1e68_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_12_10/6448e51af34c2ddf3a96f9e9e0cd1e68_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 3624,
+              "user_badge_id": 157051545,
+              "badge_name": "Here Come the Vikings! (Level 2)",
+              "badge_description": "Even the vikings had to take a break from marauding once in a while. We like to think that, like us, they enjoy relaxing with a brew from their homeland. That's 10 different beers from a brewery from Norway. Try 5 more for Level 3!",
+              "created_at": "Sat, 10 Dec 2016 19:05:43 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_HereComeTheVikings_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_HereComeTheVikings_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_HereComeTheVikings_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 389875438,
+        "created_at": "Sat, 03 Dec 2016 19:34:00 +0000",
+        "checkin_comment": "Snart jul? Her var d mye jul",
+        "rating_score": 4.5,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 104733,
+          "beer_name": "Juleøl Premium",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-104733_21d72_sm.jpeg",
+          "beer_style": "Lager - Winter",
+          "beer_slug": "aass-bryggeri-juleol-premium",
+          "beer_abv": 6.5,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 4,
+          "brewery_name": "Aass Bryggeri",
+          "brewery_slug": "aass-bryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-4_e15e5.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/Aass.bryggeri",
+            "instagram": "",
+            "url": "http://www.aass.no"
+          },
+          "location": {
+            "brewery_city": "Drammen",
+            "brewery_state": "",
+            "lat": 59.7417,
+            "lng": 10.2117
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 1,
+          "count": 1,
+          "items": [
+            {
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "checkin_id": 389875438,
+              "comment_id": 30247478,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Skjer a? Mer aktivitet her en noen gang før...",
+              "created_at": "Sat, 03 Dec 2016 19:46:08 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 2,
+          "count": 2,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 305520071,
+              "like_owner": false,
+              "created_at": "Sat, 03 Dec 2016 20:17:13 +0000"
+            },
+            {
+              "uid": 134422,
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "like_id": 305497302,
+              "like_owner": false,
+              "created_at": "Sat, 03 Dec 2016 19:45:32 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 102128420,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_12_03/99dc3f4df59cb10450c1016f1cce3bcb_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_12_03/99dc3f4df59cb10450c1016f1cce3bcb_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_12_03/99dc3f4df59cb10450c1016f1cce3bcb_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_12_03/99dc3f4df59cb10450c1016f1cce3bcb_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 49,
+              "user_badge_id": 155715287,
+              "badge_name": "Winter Wonderland",
+              "badge_description": "It's cold outside - warm up with Winter beers. That's at least 5 different Winter beers try 5 more for Level 2!",
+              "created_at": "Sat, 03 Dec 2016 19:34:00 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_wonderland_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_wonderland_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_wonderland_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 389335584,
+        "created_at": "Fri, 02 Dec 2016 20:14:24 +0000",
+        "checkin_comment": ":( :(",
+        "rating_score": 0.25,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1800641,
+          "beer_name": "Juleøl (2016)",
+          "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+          "beer_style": "Lager - Winter",
+          "beer_slug": "grans-bryggeri-juleol-2016",
+          "beer_abv": 4.7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 17888,
+          "brewery_name": "Grans Bryggeri",
+          "brewery_slug": "grans-bryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-GransBryggeri_17888.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "http://www.facebook.com/gransbryggeri",
+            "instagram": "",
+            "url": "http://www.grans.no"
+          },
+          "location": {
+            "brewery_city": "Sandefjord",
+            "brewery_state": "",
+            "lat": 59.1296,
+            "lng": 10.242
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 2,
+          "count": 2,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 389335584,
+              "comment_id": 30238537,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Hehe, dårlige greier? :-)",
+              "created_at": "Sat, 03 Dec 2016 13:28:30 +0000",
+              "comment_source": "API"
+            },
+            {
+              "user": {
+                "uid": 1468888,
+                "user_name": "ThorArne",
+                "first_name": "Thor Arne",
+                "last_name": "D.",
+                "bio": "",
+                "location": "Oslo",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/ThorArne"
+              },
+              "checkin_id": 389335584,
+              "comment_id": 30238679,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Ja. Skrale greier og en litt rar smak...",
+              "created_at": "Sat, 03 Dec 2016 13:41:07 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 134422,
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "like_id": 304960281,
+              "like_owner": false,
+              "created_at": "Fri, 02 Dec 2016 21:09:03 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 2,
+          "items": [
+            {
+              "badge_id": 6180,
+              "user_badge_id": 155416682,
+              "badge_name": "Cheers To You! (Level 2)",
+              "badge_description": "Happy Untappd anniversary to you! Thanks for sticking around and drinking socially with us. Cheers! That's 2 years on Untappd!",
+              "created_at": "Fri, 02 Dec 2016 20:14:24 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_HeresToYou_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_HeresToYou_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_HeresToYou_lg.jpg"
+              }
+            },
+            {
+              "badge_id": 5115,
+              "user_badge_id": 155416684,
+              "badge_name": "Wheel of Styles",
+              "badge_description": "Round and round the wheel goes! Which style you’ll be drinking, nobody knows! Your desire to explore different styles is inspiring. Keep it up! That's a check-in to at least 5 different styles. Try 5 more for Level 2!",
+              "created_at": "Fri, 02 Dec 2016 20:14:24 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_WheelofStyles_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 379545498,
+        "created_at": "Sat, 05 Nov 2016 19:08:08 +0000",
+        "checkin_comment": "Rallerallerallerall:-)",
+        "rating_score": 4.25,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 35135,
+          "beer_name": "Rallar Amber Ale",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-35135_c485f_sm.jpeg",
+          "beer_style": "Red Ale - American Amber / Red",
+          "beer_slug": "aegir-bryggeri-rallar-amber-ale",
+          "beer_abv": 4.7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 3778,
+          "brewery_name": "Ægir Bryggeri",
+          "brewery_slug": "a-gir-bryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-girBryggeri_3778.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "aegirbryggeri",
+            "facebook": "",
+            "instagram": "",
+            "url": "http://www.flamsbrygga.no/bryggeri/"
+          },
+          "location": {
+            "brewery_city": "Flåm",
+            "brewery_state": "Aurland",
+            "lat": 60.8381,
+            "lng": 7.12075
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 0,
+          "count": 0,
+          "auth_toast": null,
+          "items": []
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 98807021,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_11_05/daede50f05327f7052103a868e81ae68_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_11_05/daede50f05327f7052103a868e81ae68_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_11_05/daede50f05327f7052103a868e81ae68_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_11_05/daede50f05327f7052103a868e81ae68_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 371272047,
+        "created_at": "Fri, 14 Oct 2016 18:43:02 +0000",
+        "checkin_comment": "Var alt som fantes i kjøleskapet...:-(",
+        "rating_score": 2,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 48488,
+          "beer_name": "Arctic Beer",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-48488_b1b2d_sm.jpeg",
+          "beer_style": "Lager - Pale",
+          "beer_slug": "macks-olbryggeri-arctic-beer",
+          "beer_abv": 4.5,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 2822,
+          "brewery_name": "Macks Ølbryggeri",
+          "brewery_slug": "macks-olbryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-2822_d22d9.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/MackBrygg/",
+            "instagram": "macksolbryggeri",
+            "url": "http://www.mack.no/"
+          },
+          "location": {
+            "brewery_city": "Tromsø",
+            "brewery_state": "",
+            "lat": 69.6454,
+            "lng": 18.9502
+          },
+          "brewery_active": 1
+        },
+        "venue": {
+          "venue_id": 829245,
+          "venue_name": "Bayonette AS",
+          "venue_slug": "bayonette-as",
+          "primary_category": "Professional & Other Places",
+          "parent_category_id": "4d4b7105d754a06375d81259",
+          "categories": {
+            "count": 1,
+            "items": [
+              {
+                "category_name": "Tech Startup",
+                "category_id": "4bf58dd8d48988d125941735",
+                "is_primary": true
+              }
+            ]
+          },
+          "location": {
+            "venue_address": "",
+            "venue_city": "Oslo",
+            "venue_state": "Oslo",
+            "venue_country": "Norge",
+            "lat": 59.9283,
+            "lng": 10.7811
+          },
+          "contact": {
+            "twitter": "",
+            "venue_url": ""
+          },
+          "public_venue": true,
+          "foursquare": {
+            "foursquare_id": "4f90261fe4b0c550e1bb9cd0",
+            "foursquare_url": "http://4sq.com/J9z6eM"
+          },
+          "venue_icon": {
+            "sm": "https://ss3.4sqi.net/img/categories_v2/shops/technology_bg_64.png",
+            "md": "https://ss3.4sqi.net/img/categories_v2/shops/technology_bg_88.png",
+            "lg": "https://ss3.4sqi.net/img/categories_v2/shops/technology_bg_88.png"
+          },
+          "is_verified": false
+        },
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 285468618,
+              "like_owner": false,
+              "created_at": "Fri, 14 Oct 2016 19:56:43 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 367518414,
+        "created_at": "Mon, 03 Oct 2016 19:38:45 +0000",
+        "checkin_comment": "Lyst og lett i 30 pluss!:-)",
+        "rating_score": 2.25,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 247360,
+          "beer_name": "Balashi Pilsener Beer",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-247360_4f5ed_sm.jpeg",
+          "beer_style": "Pilsner - Other",
+          "beer_slug": "brouwerij-nacional-balashi-balashi-pilsener-beer",
+          "beer_abv": 5,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 289,
+          "brewery_name": "Brouwerij Nacional Balashi",
+          "brewery_slug": "brouwerij-nacional-balashi",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-BrouwerijNacionalBalashi_289.jpeg",
+          "country_name": "Aruba",
+          "contact": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "url": "http://www.balashi.com/balashi/"
+          },
+          "location": {
+            "brewery_city": "Balashi",
+            "brewery_state": "",
+            "lat": 12.4824,
+            "lng": -69.978
+          },
+          "brewery_active": 1
+        },
+        "venue": {
+          "venue_id": 755552,
+          "venue_name": "Tamarijn Aruba All Inclusive",
+          "venue_slug": "tamarijn-aruba-all-inclusive",
+          "primary_category": "Travel & Transport",
+          "parent_category_id": "4d4b7105d754a06379d81259",
+          "categories": {
+            "count": 1,
+            "items": [
+              {
+                "category_name": "Resort",
+                "category_id": "4bf58dd8d48988d12f951735",
+                "is_primary": true
+              }
+            ]
+          },
+          "location": {
+            "venue_address": "J.E. Irausquin Blvd #41",
+            "venue_city": "Oranjestad",
+            "venue_state": "",
+            "venue_country": "Aruba",
+            "lat": 12.5336,
+            "lng": -70.0568
+          },
+          "contact": {
+            "twitter": "@tamarijnaruba",
+            "venue_url": "http://www.tamarijnaruba.com"
+          },
+          "public_venue": true,
+          "foursquare": {
+            "foursquare_id": "4c25668cc11dc9b620402724",
+            "foursquare_url": "http://4sq.com/aY1oI8"
+          },
+          "venue_icon": {
+            "sm": "https://ss3.4sqi.net/img/categories_v2/travel/resort_bg_64.png",
+            "md": "https://ss3.4sqi.net/img/categories_v2/travel/resort_bg_88.png",
+            "lg": "https://ss3.4sqi.net/img/categories_v2/travel/resort_bg_88.png"
+          },
+          "is_verified": false
+        },
+        "comments": {
+          "total_count": 1,
+          "count": 1,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 367518414,
+              "comment_id": 28833306,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Ser helt riktig ut!",
+              "created_at": "Tue, 04 Oct 2016 18:40:51 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 2,
+          "count": 2,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 134422,
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "like_id": 281855464,
+              "like_owner": false,
+              "created_at": "Tue, 04 Oct 2016 21:08:17 +0000"
+            },
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 281824021,
+              "like_owner": false,
+              "created_at": "Tue, 04 Oct 2016 18:40:30 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 94931750,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_10_03/68b4b7b0ac60c5fded83b38ae45d1320_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_10_03/68b4b7b0ac60c5fded83b38ae45d1320_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_10_03/68b4b7b0ac60c5fded83b38ae45d1320_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_10_03/68b4b7b0ac60c5fded83b38ae45d1320_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 3,
+          "items": [
+            {
+              "badge_id": 140,
+              "user_badge_id": 142074167,
+              "badge_name": "Bar Explorer",
+              "badge_description": "Your quest to quench your thirst leaves no stone unturned! That's at least 5 distinct venues!",
+              "created_at": "Mon, 03 Oct 2016 19:38:45 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_goingPlaces_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_goingPlaces_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_goingPlaces_lg.jpg"
+              }
+            },
+            {
+              "badge_id": 643,
+              "user_badge_id": 142074168,
+              "badge_name": "Beer Connoisseur (Level 2)",
+              "badge_description": "Travel much? You must be a \"brewsetter\". That's at least a beer from 10 different countries. Try 5 more for Level 3!",
+              "created_at": "Mon, 03 Oct 2016 19:38:45 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_connoiseur_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_connoiseur_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_connoiseur_lg.jpg"
+              }
+            },
+            {
+              "badge_id": 787,
+              "user_badge_id": 142074169,
+              "badge_name": "Photogenic Brew (Level 2)",
+              "badge_description": "It takes the perfect amount light, the right framing and a touch of creative love to get the perfect picture of your brew. Now it’s time to drink it! That’s 10 check-ins with a photo. ",
+              "created_at": "Mon, 03 Oct 2016 19:38:45 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_beertography_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_beertography_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 338506328,
+        "created_at": "Thu, 21 Jul 2016 20:05:35 +0000",
+        "checkin_comment": "Grei nok:-)",
+        "rating_score": 3.75,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1532105,
+          "beer_name": "Lys",
+          "beer_label": "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+          "beer_style": "Blonde Ale",
+          "beer_slug": "telemark-mikrobryggeri-lys",
+          "beer_abv": 4.7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 209312,
+          "brewery_name": "Telemark Mikrobryggeri",
+          "brewery_slug": "telemark-mikrobryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-209312_c7731.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/pages/Telemark-Mikrobryggeri/1629161150630255",
+            "instagram": "",
+            "url": ""
+          },
+          "location": {
+            "brewery_city": "Skien",
+            "brewery_state": "",
+            "lat": 59.1987,
+            "lng": 9.61559
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 2,
+          "count": 2,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 134422,
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "like_id": 253539713,
+              "like_owner": false,
+              "created_at": "Fri, 22 Jul 2016 22:02:38 +0000"
+            },
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 253370658,
+              "like_owner": false,
+              "created_at": "Fri, 22 Jul 2016 14:37:17 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 85510888,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_07_21/fb1ae647e00481b432fcaf6c8d37dde3_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_07_21/fb1ae647e00481b432fcaf6c8d37dde3_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_07_21/fb1ae647e00481b432fcaf6c8d37dde3_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_07_21/fb1ae647e00481b432fcaf6c8d37dde3_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 3623,
+              "user_badge_id": 127412017,
+              "badge_name": "Here Come the Vikings!",
+              "badge_description": "Even the vikings had to take a break from marauding once in a while. We like to think that, like us, they enjoy relaxing with a brew from their homeland. That's 5 different beers from a brewery from Norway. Try 5 more for Level 2!",
+              "created_at": "Thu, 21 Jul 2016 20:05:35 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_HereComeTheVikings_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_HereComeTheVikings_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_HereComeTheVikings_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 276958075,
+        "created_at": "Sat, 13 Feb 2016 19:13:40 +0000",
+        "checkin_comment": "God butikkøl?",
+        "rating_score": 4,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1090162,
+          "beer_name": "Twin Peaks",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1090162_b82cb_sm.jpeg",
+          "beer_style": "Pale Ale - American",
+          "beer_slug": "oslo-mikrobryggeri-twin-peaks",
+          "beer_abv": 4.7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 5227,
+          "brewery_name": "Oslo Mikrobryggeri",
+          "brewery_slug": "oslo-mikrobryggeri",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-5227_665a6.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/pages/Oslo-Mikrobryggeri/116156965121802?fref=photo",
+            "instagram": "",
+            "url": "http://omb.no"
+          },
+          "location": {
+            "brewery_city": "Oslo",
+            "brewery_state": "0355",
+            "lat": 59.9244,
+            "lng": 10.7244
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 2,
+          "count": 2,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 192169148,
+              "like_owner": false,
+              "created_at": "Sat, 13 Feb 2016 21:06:22 +0000"
+            },
+            {
+              "uid": 1624518,
+              "user": {
+                "uid": 1624518,
+                "user_name": "OsloMikrobryggeri",
+                "first_name": "Oslo Mikrobryggeri",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/site/brewery_logos/brewery-5227_665a6.jpeg",
+                "account_type": "brewery",
+                "venue_details": [],
+                "brewery_details": {
+                  "brewery_id": 5227
+                },
+                "user_link": "https://untappd.com/brewery/5227"
+              },
+              "like_id": 192126245,
+              "like_owner": false,
+              "created_at": "Sat, 13 Feb 2016 20:02:13 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 66158735,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_02_13/00300c97f07141f169df7b7108930f6b_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_02_13/00300c97f07141f169df7b7108930f6b_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_02_13/00300c97f07141f169df7b7108930f6b_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_02_13/00300c97f07141f169df7b7108930f6b_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 185,
+              "user_badge_id": 101414480,
+              "badge_name": "Pale as the Moon",
+              "badge_description": "Ahh, the trusty pale ale; crisp, refreshing, and always a good choice in a bind. That's 5 different Pale Ales. Try 5 more for Level 2.",
+              "created_at": "Sat, 13 Feb 2016 19:13:40 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_PaleMoon_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_PaleMoon_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_PaleMoon_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 264704731,
+        "created_at": "Fri, 08 Jan 2016 18:50:24 +0000",
+        "checkin_comment": "Gouden helg! ",
+        "rating_score": 4,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1579,
+          "beer_name": "Gouden Carolus Christmas/Noël",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-GoudenCarolusNoelChristmas_1579.jpeg",
+          "beer_style": "Belgian Strong Dark Ale",
+          "beer_slug": "brouwerij-het-anker-gouden-carolus-christmas-noel",
+          "beer_abv": 10.5,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 284,
+          "brewery_name": "Brouwerij Het Anker",
+          "brewery_slug": "brouwerij-het-anker",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-284_c938f.jpeg",
+          "country_name": "Belgium",
+          "contact": {
+            "twitter": "BreweryHetAnker",
+            "facebook": "http://www.facebook.com/hetanker",
+            "instagram": "HetAnker",
+            "url": "http://www.hetanker.be"
+          },
+          "location": {
+            "brewery_city": "Mechelen",
+            "brewery_state": "Antwerpen",
+            "lat": 51.0323,
+            "lng": 4.47285
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 179828348,
+              "like_owner": false,
+              "created_at": "Fri, 08 Jan 2016 19:26:05 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 62490697,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_01_08/2e5109ff50c823dc84e8db117384c338_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_01_08/2e5109ff50c823dc84e8db117384c338_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_01_08/2e5109ff50c823dc84e8db117384c338_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_01_08/2e5109ff50c823dc84e8db117384c338_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 263635302,
+        "created_at": "Sun, 03 Jan 2016 19:29:01 +0000",
+        "checkin_comment": "Siste dag i juleferie øl:-(",
+        "rating_score": 3.75,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1001813,
+          "beer_name": "Saison Réserve",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1001813_fd7a4_sm.jpeg",
+          "beer_style": "Saison / Farmhouse Ale",
+          "beer_slug": "nogne-o-saison-reserve",
+          "beer_abv": 7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 923,
+          "brewery_name": "Nøgne Ø",
+          "brewery_slug": "nogne-o",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-923_1cde4.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "nogneo",
+            "facebook": "http://www.facebook.com/nogneo",
+            "instagram": "nogneo",
+            "url": "http://www.nogne-o.com/"
+          },
+          "location": {
+            "brewery_city": "Grimstad",
+            "brewery_state": "",
+            "lat": 58.406,
+            "lng": 8.63723
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 178919149,
+              "like_owner": false,
+              "created_at": "Mon, 04 Jan 2016 08:25:03 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 62167395,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2016_01_03/112ed6d639ff62839c9b426e97640f32_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2016_01_03/112ed6d639ff62839c9b426e97640f32_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2016_01_03/112ed6d639ff62839c9b426e97640f32_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2016_01_03/112ed6d639ff62839c9b426e97640f32_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 263629029,
+        "created_at": "Sun, 03 Jan 2016 19:12:24 +0000",
+        "checkin_comment": "Siste dag i juleferie øl:-(",
+        "rating_score": 3.75,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 1001813,
+          "beer_name": "Saison Réserve",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-1001813_fd7a4_sm.jpeg",
+          "beer_style": "Saison / Farmhouse Ale",
+          "beer_slug": "nogne-o-saison-reserve",
+          "beer_abv": 7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 923,
+          "brewery_name": "Nøgne Ø",
+          "brewery_slug": "nogne-o",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-923_1cde4.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "nogneo",
+            "facebook": "http://www.facebook.com/nogneo",
+            "instagram": "nogneo",
+            "url": "http://www.nogne-o.com/"
+          },
+          "location": {
+            "brewery_city": "Grimstad",
+            "brewery_state": "",
+            "lat": 58.406,
+            "lng": 8.63723
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 0,
+          "count": 0,
+          "auth_toast": null,
+          "items": []
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 4458,
+              "user_badge_id": 96019703,
+              "badge_name": "Happy Brew Year (2016)",
+              "badge_description": "Cheers to a new year full of amazing new brews. It's been an amazing year and we raise a toast to you and to the wonderful world of beer!",
+              "created_at": "Sun, 03 Jan 2016 19:12:24 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_NewYears2016_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_NewYears2016_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_NewYears2016_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 261532313,
+        "created_at": "Wed, 30 Dec 2015 19:38:45 +0000",
+        "checkin_comment": "Sikkelig god jo;-) må \"hamer\"",
+        "rating_score": 4.25,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 105221,
+          "beer_name": "Hamer & Sikkel",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-105221_e0cdd_sm.jpeg",
+          "beer_style": "Porter - English",
+          "beer_slug": "brouwerij-de-molen-hamer-and-sikkel",
+          "beer_abv": 5.2,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 3367,
+          "brewery_name": "Brouwerij De Molen",
+          "brewery_slug": "brouwerij-de-molen",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-3367_c1d5d.jpeg",
+          "country_name": "Netherlands",
+          "contact": {
+            "twitter": "molenbier",
+            "facebook": "http://www.facebook.com/BierbrouwerijDeMolen",
+            "instagram": "molenbier",
+            "url": "http://www.brouwerijdemolen.nl"
+          },
+          "location": {
+            "brewery_city": "Bodegraven",
+            "brewery_state": "Zuid Holland",
+            "lat": 52.0857,
+            "lng": 4.74211
+          },
+          "brewery_active": 1
+        },
+        "venue": {
+          "venue_id": 2495562,
+          "venue_name": "Bloc",
+          "venue_slug": "bloc",
+          "primary_category": "Professional & Other Places",
+          "parent_category_id": "4d4b7105d754a06375d81259",
+          "categories": {
+            "count": 1,
+            "items": [
+              {
+                "category_name": "Tech Startup",
+                "category_id": "4bf58dd8d48988d125941735",
+                "is_primary": true
+              }
+            ]
+          },
+          "location": {
+            "venue_address": "Hasleveien 15B",
+            "venue_city": "Oslo",
+            "venue_state": "Oslo",
+            "venue_country": "Norge",
+            "lat": 59.9285,
+            "lng": 10.781
+          },
+          "contact": {
+            "twitter": "",
+            "venue_url": ""
+          },
+          "public_venue": true,
+          "foursquare": {
+            "foursquare_id": "521646c5bce605fb347f90b8",
+            "foursquare_url": "http://4sq.com/176wcFC"
+          },
+          "venue_icon": {
+            "sm": "https://ss3.4sqi.net/img/categories_v2/shops/technology_bg_64.png",
+            "md": "https://ss3.4sqi.net/img/categories_v2/shops/technology_bg_88.png",
+            "lg": "https://ss3.4sqi.net/img/categories_v2/shops/technology_bg_88.png"
+          },
+          "is_verified": false
+        },
+        "comments": {
+          "total_count": 5,
+          "count": 5,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 261532313,
+              "comment_id": 21227021,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Det! Er en skikkelig øl :-)",
+              "created_at": "Wed, 30 Dec 2015 19:42:31 +0000",
+              "comment_source": "API"
+            },
+            {
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "checkin_id": 261532313,
+              "comment_id": 21227050,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Hva skjedde? Både aktivitet på U og en spenstig øl.... ",
+              "created_at": "Wed, 30 Dec 2015 19:43:06 +0000",
+              "comment_source": "API"
+            },
+            {
+              "user": {
+                "uid": 1468888,
+                "user_name": "ThorArne",
+                "first_name": "Thor Arne",
+                "last_name": "D.",
+                "bio": "",
+                "location": "Oslo",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/ThorArne"
+              },
+              "checkin_id": 261532313,
+              "comment_id": 21227100,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Alene hjemme! Dama ute å treffer venninner",
+              "created_at": "Wed, 30 Dec 2015 19:45:12 +0000",
+              "comment_source": "API"
+            },
+            {
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "checkin_id": 261532313,
+              "comment_id": 21227131,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Bra du har vett nok til å drækka god øl da ",
+              "created_at": "Wed, 30 Dec 2015 19:47:05 +0000",
+              "comment_source": "API"
+            },
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 261532313,
+              "comment_id": 21227658,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Go go TaDa :-)",
+              "created_at": "Wed, 30 Dec 2015 20:05:10 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 0,
+          "count": 0,
+          "auth_toast": null,
+          "items": []
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 61519604,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2015_12_30/a261259c08c34833099597c709ffa40d_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2015_12_30/a261259c08c34833099597c709ffa40d_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2015_12_30/a261259c08c34833099597c709ffa40d_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2015_12_30/a261259c08c34833099597c709ffa40d_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 261476051,
+        "created_at": "Wed, 30 Dec 2015 15:33:55 +0000",
+        "checkin_comment": "God jul!",
+        "rating_score": 4.25,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 12897,
+          "beer_name": "Père Noël",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-12897_bd5b0_sm.jpeg",
+          "beer_style": "Pale Ale - Belgian",
+          "beer_slug": "brouwerij-de-ranke-pere-noel",
+          "beer_abv": 7,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 277,
+          "brewery_name": "Brouwerij De Ranke",
+          "brewery_slug": "brouwerij-de-ranke",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-277_35c5e.jpeg",
+          "country_name": "Belgium",
+          "contact": {
+            "twitter": "bierenderanke",
+            "facebook": "https://www.facebook.com/brouwerij.deranke/",
+            "instagram": "brouwerijderanke",
+            "url": "http://deranke.be"
+          },
+          "location": {
+            "brewery_city": "Dottignies",
+            "brewery_state": "Hainaut",
+            "lat": 50.7342,
+            "lng": 3.29951
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 2,
+          "count": 2,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 176717995,
+              "like_owner": false,
+              "created_at": "Wed, 30 Dec 2015 19:38:00 +0000"
+            },
+            {
+              "uid": 134422,
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "like_id": 176676337,
+              "like_owner": false,
+              "created_at": "Wed, 30 Dec 2015 16:36:13 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 412,
+              "user_badge_id": 94806171,
+              "badge_name": "Photogenic Brew",
+              "badge_description": "It takes the perfect amount light, the right framing and a touch of creative love to get the perfect picture of your brew. Now it’s time to drink it! That’s 5 check-ins with a photo. ",
+              "created_at": "Wed, 30 Dec 2015 15:33:55 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_beertography_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_beertography_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 197374805,
+        "created_at": "Sat, 27 Jun 2015 19:44:40 +0000",
+        "checkin_comment": "",
+        "rating_score": 4,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 4486,
+          "beer_name": "Delirium Nocturnum",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-4486_dbcef_sm.jpeg",
+          "beer_style": "Belgian Strong Dark Ale",
+          "beer_slug": "brouwerij-huyghe-delirium-nocturnum",
+          "beer_abv": 8.5,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 285,
+          "brewery_name": "Brouwerij Huyghe",
+          "brewery_slug": "brouwerij-huyghe",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-BrouwerijHuyghe_285.jpeg",
+          "country_name": "Belgium",
+          "contact": {
+            "twitter": "Deliriumbrewery",
+            "facebook": "http://www.facebook.com/Deliriumbrewery",
+            "instagram": "",
+            "url": "http://www.delirium.be"
+          },
+          "location": {
+            "brewery_city": "Melle",
+            "brewery_state": "Oost-Vlaanderen",
+            "lat": 51.0002,
+            "lng": 3.80523
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 0,
+          "count": 0,
+          "auth_toast": null,
+          "items": []
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 196806331,
+        "created_at": "Fri, 26 Jun 2015 17:29:17 +0000",
+        "checkin_comment": "Kanon!",
+        "rating_score": 3.75,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 562100,
+          "beer_name": "Humlekanon",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-562100_30b49_sm.jpeg",
+          "beer_style": "IPA - American",
+          "beer_slug": "haandbryggeriet-humlekanon",
+          "beer_abv": 7.5,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 2206,
+          "brewery_name": "HaandBryggeriet",
+          "brewery_slug": "haandbryggeriet",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-HaandBryggeriet_2206.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "https://www.facebook.com/Haandbryggeriet-321958088808/",
+            "instagram": "haandbryggeriet_official",
+            "url": "http://www.haandbryggeriet.net"
+          },
+          "location": {
+            "brewery_city": "Drammen",
+            "brewery_state": "",
+            "lat": 59.7414,
+            "lng": 10.231
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 120300432,
+              "like_owner": false,
+              "created_at": "Fri, 26 Jun 2015 20:56:02 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 194925328,
+        "created_at": "Sat, 20 Jun 2015 18:43:47 +0000",
+        "checkin_comment": "",
+        "rating_score": 3.75,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 111750,
+          "beer_name": "Caterpillar",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-111750_b41fa_sm.jpeg",
+          "beer_style": "Pale Ale - New Zealand",
+          "beer_slug": "brewfist-caterpillar",
+          "beer_abv": 5.8,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 10776,
+          "brewery_name": "BrewFist",
+          "brewery_slug": "brewfist",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-Brewfist_10776.jpeg",
+          "country_name": "Italy",
+          "contact": {
+            "twitter": "BrewFist_",
+            "facebook": "http://www.facebook.com/pages/BrewFist/113148352087324",
+            "instagram": "",
+            "url": "http://www.brewfist.com"
+          },
+          "location": {
+            "brewery_city": "Codogno",
+            "brewery_state": "LO",
+            "lat": 45.1574,
+            "lng": 9.67584
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 0,
+          "count": 0,
+          "items": []
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 118697184,
+              "like_owner": false,
+              "created_at": "Sat, 20 Jun 2015 18:56:11 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 1,
+          "items": [
+            {
+              "badge_id": 78,
+              "user_badge_id": 66447279,
+              "badge_name": "Playing the Field",
+              "badge_description": "Does the word picking favorites mean anything to you? Obviously not. That's 10 different beers in a row.",
+              "created_at": "Sat, 20 Jun 2015 18:43:47 +0000",
+              "badge_image": {
+                "sm": "https://untappd.akamaized.net/badges/bdg_playingTheField_sm.jpg",
+                "md": "https://untappd.akamaized.net/badges/bdg_playingTheField_md.jpg",
+                "lg": "https://untappd.akamaized.net/badges/bdg_playingTheField_lg.jpg"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "checkin_id": 192495917,
+        "created_at": "Sat, 13 Jun 2015 15:59:40 +0000",
+        "checkin_comment": "Velfortjent etter 6mils tur. Idag smaker den fantastisk...",
+        "rating_score": 4.5,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 447260,
+          "beer_name": "IPA",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-_447260_sm_ff4c2f7cafcb5beb979c980200cf27.jpeg",
+          "beer_style": "IPA - Session / India Session Ale",
+          "beer_slug": "hansa-borg-bryggerier-ipa",
+          "beer_abv": 4.6,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 14089,
+          "brewery_name": "Hansa Borg Bryggerier",
+          "brewery_slug": "hansa-borg-bryggerier",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-HansaBorgBryggerier_14089.jpeg",
+          "country_name": "Norway",
+          "contact": {
+            "twitter": "",
+            "facebook": "",
+            "instagram": "",
+            "url": "http://www.hansaborg.no/"
+          },
+          "location": {
+            "brewery_city": "Kokstad",
+            "brewery_state": "",
+            "lat": 60.294,
+            "lng": 5.25793
+          },
+          "brewery_active": 1
+        },
+        "venue": {
+          "venue_id": 187513,
+          "venue_name": "Sjusjøen",
+          "venue_slug": "sjusjoen",
+          "primary_category": "Outdoors & Recreation",
+          "parent_category_id": "4d4b7105d754a06377d81259",
+          "categories": {
+            "count": 1,
+            "items": [
+              {
+                "category_name": "Lake",
+                "category_id": "4bf58dd8d48988d161941735",
+                "is_primary": true
+              }
+            ]
+          },
+          "location": {
+            "venue_address": "Sjusjøen",
+            "venue_city": "Sjusjøen",
+            "venue_state": "Hedmark",
+            "venue_country": "Norge",
+            "lat": 61.1492,
+            "lng": 10.6977
+          },
+          "contact": {
+            "twitter": "",
+            "venue_url": ""
+          },
+          "public_venue": false,
+          "foursquare": {
+            "foursquare_id": "4e8f74fe02d5ee38b663025d",
+            "foursquare_url": "http://4sq.com/nP0mYT"
+          },
+          "venue_icon": {
+            "sm": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/lake_bg_64.png",
+            "md": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/lake_bg_88.png",
+            "lg": "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/lake_bg_88.png"
+          },
+          "is_verified": false
+        },
+        "comments": {
+          "total_count": 1,
+          "count": 1,
+          "items": [
+            {
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "checkin_id": 192495917,
+              "comment_id": 16010505,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Helvete er over skjønner jeg :-)",
+              "created_at": "Sat, 13 Jun 2015 16:12:11 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 2,
+          "count": 2,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 127209,
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "like_id": 116766111,
+              "like_owner": false,
+              "created_at": "Sat, 13 Jun 2015 18:38:58 +0000"
+            },
+            {
+              "uid": 134422,
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "like_id": 116723742,
+              "like_owner": false,
+              "created_at": "Sat, 13 Jun 2015 16:11:54 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 1,
+          "items": [
+            {
+              "photo_id": 40972011,
+              "photo": {
+                "photo_img_sm": "https://untappd.akamaized.net/photo/2015_06_13/f65289859492a9f02cbc9f26c6620e25_100x100.jpg",
+                "photo_img_md": "https://untappd.akamaized.net/photo/2015_06_13/f65289859492a9f02cbc9f26c6620e25_320x320.jpg",
+                "photo_img_lg": "https://untappd.akamaized.net/photo/2015_06_13/f65289859492a9f02cbc9f26c6620e25_640x640.jpg",
+                "photo_img_og": "https://untappd.akamaized.net/photo/2015_06_13/f65289859492a9f02cbc9f26c6620e25_raw.jpg"
+              }
+            }
+          ]
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 180276527,
+        "created_at": "Fri, 08 May 2015 20:00:11 +0000",
+        "checkin_comment": "Julestemning i mai...",
+        "rating_score": 4.25,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 245413,
+          "beer_name": "Hoppy Christmas",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-245413_997df_sm.jpeg",
+          "beer_style": "IPA - American",
+          "beer_slug": "brewdog-hoppy-christmas",
+          "beer_abv": 7.2,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 241,
+          "brewery_name": "BrewDog",
+          "brewery_slug": "brewdog",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-241_8c584.jpeg",
+          "country_name": "Scotland",
+          "contact": {
+            "twitter": "BrewDog",
+            "facebook": "http://www.facebook.com/pages/BrewDog/21251598643",
+            "instagram": "brewdogofficial",
+            "url": "http://www.brewdog.com"
+          },
+          "location": {
+            "brewery_city": "Ellon",
+            "brewery_state": "Aberdeenshire",
+            "lat": 57.3716,
+            "lng": -2.04834
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 1,
+          "count": 1,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 180276527,
+              "comment_id": 15056409,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Party i dag???? ",
+              "created_at": "Fri, 08 May 2015 20:02:48 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 0,
+          "count": 0,
+          "auth_toast": null,
+          "items": []
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      },
+      {
+        "checkin_id": 180242779,
+        "created_at": "Fri, 08 May 2015 18:12:36 +0000",
+        "checkin_comment": "For mye rødbrus variant...:-)",
+        "rating_score": 2,
+        "user": {
+          "uid": 1468888,
+          "user_name": "ThorArne",
+          "first_name": "Thor Arne",
+          "last_name": "D.",
+          "location": "Oslo",
+          "is_supporter": 0,
+          "url": "",
+          "bio": "",
+          "relationship": null,
+          "user_avatar": "https://gravatar.com/avatar/32135c8c4911964f20d7d76ed8c5ccee?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2.jpg%3Fv%3D1",
+          "is_private": 0,
+          "contact": []
+        },
+        "beer": {
+          "bid": 33040,
+          "beer_name": "Delirium Red",
+          "beer_label": "https://untappd.akamaized.net/site/beer_logos/beer-33040_c4ed0_sm.jpeg",
+          "beer_style": "Fruit Beer",
+          "beer_slug": "brouwerij-huyghe-delirium-red",
+          "beer_abv": 8,
+          "auth_rating": 0,
+          "wish_list": false,
+          "beer_active": 1,
+          "has_had": false
+        },
+        "brewery": {
+          "brewery_id": 285,
+          "brewery_name": "Brouwerij Huyghe",
+          "brewery_slug": "brouwerij-huyghe",
+          "brewery_label": "https://untappd.akamaized.net/site/brewery_logos/brewery-BrouwerijHuyghe_285.jpeg",
+          "country_name": "Belgium",
+          "contact": {
+            "twitter": "Deliriumbrewery",
+            "facebook": "http://www.facebook.com/Deliriumbrewery",
+            "instagram": "",
+            "url": "http://www.delirium.be"
+          },
+          "location": {
+            "brewery_city": "Melle",
+            "brewery_state": "Oost-Vlaanderen",
+            "lat": 51.0002,
+            "lng": 3.80523
+          },
+          "brewery_active": 1
+        },
+        "venue": [],
+        "comments": {
+          "total_count": 1,
+          "count": 1,
+          "items": [
+            {
+              "user": {
+                "uid": 127209,
+                "user_name": "erikfosser",
+                "first_name": "Erik",
+                "last_name": "",
+                "bio": "",
+                "location": "",
+                "relationship": "none",
+                "is_supporter": 0,
+                "user_avatar": "https://untappd.akamaized.net/profile/6d31bc255c26d95ba52568b157459620_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/erikfosser"
+              },
+              "checkin_id": 180242779,
+              "comment_id": 15055646,
+              "comment_owner": false,
+              "comment_editor": false,
+              "comment": "Rosa elefanter er aldri feil ",
+              "created_at": "Fri, 08 May 2015 19:36:18 +0000",
+              "comment_source": "API"
+            }
+          ]
+        },
+        "toasts": {
+          "total_count": 1,
+          "count": 1,
+          "auth_toast": null,
+          "items": [
+            {
+              "uid": 134422,
+              "user": {
+                "uid": 134422,
+                "user_name": "stuntbiker",
+                "first_name": "Oddmar",
+                "last_name": "L.",
+                "bio": "",
+                "location": "Oslo",
+                "user_avatar": "https://untappd.akamaized.net/profile/96c60fc6b249d33857870851ea4d8faf_thumb.jpg",
+                "account_type": "user",
+                "venue_details": [],
+                "brewery_details": [],
+                "user_link": "https://untappd.com/user/stuntbiker"
+              },
+              "like_id": 106621825,
+              "like_owner": false,
+              "created_at": "Fri, 08 May 2015 18:41:51 +0000"
+            }
+          ]
+        },
+        "media": {
+          "count": 0,
+          "items": []
+        },
+        "source": {
+          "app_name": "Untappd for iPhone - (V2)",
+          "app_website": "http://untpd.it/iphoneapp"
+        },
+        "badges": {
+          "count": 0,
+          "items": []
+        }
+      }
+    ]
   },
   {
     "user": "stuntbiker",

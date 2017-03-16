@@ -19,7 +19,7 @@ untappd
 	.catch(e => console.error(e));
 
 // NOTE: For testing
-// const results = require('./data/results.json');
+// const results = require('./data/results_empty.json');
 // Promise
 // 	.resolve(results)
 // 	.then(mapper)

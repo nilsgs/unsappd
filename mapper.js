@@ -16,6 +16,15 @@ _.mixin({ 'removeFalsies': removeFalsies });
 
 const formatDate = (date, format) => moment(date, 'ddd, DD MMM YYYY HH:mm:ss Z').format(format);
 
+const dummy = '**NGS**';
+const createMap = (key, transform) => ({ 
+	key, default: () => dummy, 
+	transform: val => { 
+		if(!transform) return val;
+		if(_.isArray(val)) return dummy
+	}
+});
+
 const map = {
 	sap: {
 		'checkin_id': 'checkin_id',
@@ -45,6 +54,10 @@ const map = {
 				'transform': value => formatDate(value, 'MMMM')
 			},
 			{
+				'key': 'month_number',
+				'transform': value => formatDate(value, 'MM')
+			},
+			{
 				'key': 'year',
 				'transform': value => formatDate(value, 'YYYY')
 			},
@@ -53,7 +66,7 @@ const map = {
 				'transform': value => formatDate(value, 'HH')
 			}
 		],
-		'checkin_comment': 'checkin_comment',
+		'checkin_comment': createMap('checkin_comment'),
 		'rating_score': 'rating_score',
 		'user.user_name': 'user_name',
 		'user.first_name': 'first_name',
@@ -61,46 +74,21 @@ const map = {
 		'beer.beer_name': 'beer_name',
 		'beer.beer_style': 'beer_style',
 		'beer.beer_abv': 'beer_abv',
-		'beer.has_had': 'has_had',
+		'beer.has_had': createMap('has_had'),
 		'brewery.brewery_id': 'brewery_id',
 		'brewery.brewery_name': 'brewery_name',
 		'brewery.country_name': 'brewery_country',
-		'brewery.location.brewery_city': 'brewery_city',
-		'brewery.location.brewery_state': 'brewery_state',
-		'venue.venue_name': {
-			'key': 'location',
-			'transform': value => {
-				if(_.isArray(value)) return undefined;
-			}
-		},
-		'venue.primary_category': {
-			'key': 'location_type',
-			'transform': value => {
-				if(_.isArray(value)) return undefined;
-			}
-		},
-		'venue.location.venue_country': {
-			'key': 'location_country',
-			'transform': value => {
-				if(_.isArray(value)) return undefined;
-			}
-		},
-		'venue.location.lat': {
-			'key': 'lat',
-			'transform': value => {
-				if(_.isArray(value)) return undefined;
-			}
-		},
-		'venue.location.lng': {
-			'key': 'long',
-			'transform': value => {
-				if(_.isArray(value)) return undefined;
-			}
-		},
-		'comments.total_count': 'comment_count',
-		'toasts.total_count': 'toast_count',
-		'badges.count': 'badge_count',
-		'media.items[0].photo.photo_img_og': 'photo_url',
+		'brewery.location.brewery_city': createMap('brewery_city'),
+		'brewery.location.brewery_state': createMap('brewery_state'),
+		'venue.venue_name': createMap('location', true),
+		'venue.primary_category': createMap('location_type', true),
+		'venue.location.venue_country': createMap('location_country', true),
+		'venue.location.lat': createMap('lat', true),
+		'venue.location.lng': createMap('long', true),
+		'comments.total_count': createMap('comment_count'),
+		'toasts.total_count': createMap('toast_count'),
+		'badges.count': createMap('badge_count'),
+		'media.items[0].photo.photo_img_og': createMap('photo_url'),
 		'sap-count': {
 			'key': 'count',
 			'default': () => 1
@@ -118,10 +106,22 @@ superOM.addMapper(map, 'default');
 const mapper = results => {
 	console.info('Starting mapping');
 
-	return results.map(result => ({
-		user: result.user,
-		checkins: superOM.mapObject(_.removeFalsies(result.items), { mapper: 'default', map: 'sap', clean: true })
-	}));
+	const filterValues = object => {
+		return _.transform(object, (result, value) => {
+			const dummyValues = _.pickBy(value, x => x === dummy);
+			const filtered = _.mapValues(dummyValues, () => null);
+			result.push(_.assign(value, filtered));
+		});
+	}
+
+	return results.map(result => {
+		const mappedValues = superOM.mapObject(_.removeFalsies(result.items), { mapper: 'default', map: 'sap' });
+
+		return {
+			user: result.user,
+			checkins: filterValues(mappedValues)
+		}
+	});
 };
 
 module.exports = mapper;
