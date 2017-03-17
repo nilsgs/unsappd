@@ -36,11 +36,11 @@ const sapClient = settings => {
 		};
 
 		console.info('Starting upload to SAP');
-		// return rp(options).then(response => data);
+		return rp(options).then(response => data);
 
-		jsonfile.writeFile('./data/sap_message.json', payload, { spaces: 2 }, err => {
-			if(err) console.error(err);
-		});
+		// jsonfile.writeFile('./data/sap_message.json', payload, { spaces: 2 }, err => {
+		// 	if(err) console.error(err);
+		// });
 
 	};
 

@@ -2,6 +2,8 @@ const _ = require('lodash');
 const moment = require('moment');
 var SuperOM = require('super-object-mapper');
 
+//TODO: Dette er grisete kode, clean up når tid
+
 var removeFalsies = function (obj) {
     return _.transform(obj, function (o, v, k) {
         if (v && typeof v === 'object') {
@@ -16,8 +18,9 @@ _.mixin({ 'removeFalsies': removeFalsies });
 
 const formatDate = (date, format) => moment(date, 'ddd, DD MMM YYYY HH:mm:ss Z').format(format);
 
-const dummy = '**NGS**';
-const createMap = (key, transform) => ({ 
+const dummyNull = '**NULL**';
+const dummyNumber = '**NUMBER**';
+const createMap = (key, dummy, transform) => ({ 
 	key, default: () => dummy, 
 	transform: val => { 
 		if(!transform) return val;
@@ -66,8 +69,8 @@ const map = {
 				'transform': value => formatDate(value, 'HH')
 			}
 		],
-		'checkin_comment': createMap('checkin_comment'),
-		'rating_score': 'rating_score',
+		'checkin_comment': createMap('checkin_comment', dummyNull),
+		'rating_score': createMap('rating_score', dummyNumber),
 		'user.user_name': 'user_name',
 		'user.first_name': 'first_name',
 		'beer.bid' : 'beer_bid',
@@ -78,16 +81,16 @@ const map = {
 		'brewery.brewery_id': 'brewery_id',
 		'brewery.brewery_name': 'brewery_name',
 		'brewery.country_name': 'brewery_country',
-		'brewery.location.brewery_city': createMap('brewery_city'),
-		'brewery.location.brewery_state': createMap('brewery_state'),
-		'venue.venue_name': createMap('location', true),
-		'venue.primary_category': createMap('location_type', true),
-		'venue.location.venue_country': createMap('location_country', true),
-		'venue.location.lat': createMap('lat', true),
-		'venue.location.lng': createMap('long', true),
-		'comments.total_count': createMap('comment_count'),
-		'toasts.total_count': createMap('toast_count'),
-		'badges.count': createMap('badge_count'),
+		'brewery.location.brewery_city': createMap('brewery_city', dummyNull),
+		'brewery.location.brewery_state': createMap('brewery_state', dummyNull),
+		'venue.venue_name': createMap('location', dummyNull, true),
+		'venue.primary_category': createMap('location_type', dummyNull, true),
+		'venue.location.venue_country': createMap('location_country', dummyNull, true),
+		'venue.location.lat': createMap('lat', dummyNumber, true),
+		'venue.location.lng': createMap('long', dummyNumber, true),
+		'comments.total_count': createMap('comment_count', dummyNumber),
+		'toasts.total_count': createMap('toast_count', dummyNumber),
+		'badges.count': createMap('badge_count', dummyNumber),
 		'media.items[0].photo.photo_img_og': createMap('photo_url'),
 		'sap-count': {
 			'key': 'count',
@@ -107,10 +110,13 @@ const mapper = results => {
 	console.info('Starting mapping');
 
 	const filterValues = object => {
+		const filterBy = (obj, dummy, placeholder) => {
+			const matches = _.pickBy(obj, val => val === dummy);
+			return _.mapValues(matches, () => placeholder);
+		};
+
 		return _.transform(object, (result, value) => {
-			const dummyValues = _.pickBy(value, x => x === dummy);
-			const filtered = _.mapValues(dummyValues, () => null);
-			result.push(_.assign(value, filtered));
+			result.push(_.assign(value, filterBy(value, dummyNull, null), filterBy(value, dummyNumber, 0)));
 		});
 	}
 
