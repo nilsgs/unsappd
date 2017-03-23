@@ -116,7 +116,7 @@ const mapper = results => {
 		};
 
 		return _.transform(object, (result, value) => {
-			result.push(_.assign(value, filterBy(value, dummyNull, null), filterBy(value, dummyNumber, 0)));
+			result.push(_.assign(value, filterBy(value, dummyNull, ''), filterBy(value, dummyNumber, 0)));
 		});
 	}
 
