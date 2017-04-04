@@ -20,11 +20,12 @@ const formatDate = (date, format) => moment(date, 'ddd, DD MMM YYYY HH:mm:ss Z')
 
 const dummyNull = '**NULL**';
 const dummyNumber = '**NUMBER**';
-const createMap = (key, dummy, transform) => ({ 
-	key, default: () => dummy, 
+const createMap = (key, dummy) => ({ 
+	key,
+	default: () => dummy, 
 	transform: val => { 
-		if(!transform) return val;
-		if(_.isArray(val)) return dummy
+		if(_.isArray(val)) return dummy;
+		return val;
 	}
 });
 
@@ -77,21 +78,21 @@ const map = {
 		'beer.beer_name': createMap('beer_name', dummyNull),
 		'beer.beer_style': createMap('beer_style', dummyNull),
 		'beer.beer_abv': createMap('beer_abv', dummyNumber),
-		'beer.has_had': createMap('has_had'),
+		'beer.has_had': createMap('has_had', dummyNull),
 		'brewery.brewery_id': createMap('brewery_id', dummyNull),
 		'brewery.brewery_name': createMap('brewery_name', dummyNull),
 		'brewery.country_name': createMap('brewery_country', dummyNull),
 		'brewery.location.brewery_city': createMap('brewery_city', dummyNull),
 		'brewery.location.brewery_state': createMap('brewery_state', dummyNull),
-		'venue.venue_name': createMap('location', dummyNull, true),
-		'venue.primary_category': createMap('location_type', dummyNull, true),
-		'venue.location.venue_country': createMap('location_country', dummyNull, true),
-		'venue.location.lat': createMap('lat', dummyNumber, true),
-		'venue.location.lng': createMap('long', dummyNumber, true),
+		'venue.venue_name': createMap('location', dummyNull),
+		'venue.primary_category': createMap('location_type', dummyNull),
+		'venue.location.venue_country': createMap('location_country', dummyNull),
+		'venue.location.lat': createMap('lat', dummyNumber),
+		'venue.location.lng': createMap('long', dummyNumber),
 		'comments.total_count': createMap('comment_count', dummyNumber),
 		'toasts.total_count': createMap('toast_count', dummyNumber),
 		'badges.count': createMap('badge_count', dummyNumber),
-		'media.items[0].photo.photo_img_og': createMap('photo_url'),
+		'media.items[0].photo.photo_img_og': createMap('photo_url', dummyNull),
 		'sap-count': {
 			'key': 'count',
 			'default': () => 1
