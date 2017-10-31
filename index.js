@@ -12,11 +12,11 @@ const sap = sapClient(settings.sap);
 console.info('Starting Unsappd');
 
 untappd
-	.getAllCheckins(settings.users, checkins)
-	.then(mapper)
-	.then(sap.uploadData)
-	.then(data => updateCheckins(data, checkins))
-	.catch(e => console.error(e));
+    .getAllCheckins(settings.users, checkins)
+    .then(mapper)
+    .then(sap.uploadData)
+    .then(data => updateCheckins(data, checkins))
+    .catch(e => console.error(e));
 
 // NOTE: For testing
 // const results = require('./data/results_empty.json');
