@@ -22,19 +22,9 @@ const untappdClient = settings => {
     }
 
     const getCheckins = (user, lastCheckin) => {
-        const options = {
-            uri: `${settings.host}${settings.path}/${user}`,
-            qs: {
-                client_id: settings.clientId,
-                client_secret: settings.clientSecret,
-                min_id: lastCheckin
-            },
-            json: true
-        };
-
         console.info(`Untappd: Getting checkins for user: ${user} from checkin ${lastCheckin}`);
-
-        return rp(getOptions(user, lastCheckin, lastCheckin)).then(result => {
+        
+        return rp(getOptions(user, lastCheckin)).then(result => {
             console.info('\tGot the results with min_id');
             return createResult(result, user);
         }).catch(e => {
@@ -45,19 +35,22 @@ const untappdClient = settings => {
         });
     }
 
-    const getOptions = (user, min_id) => ({
-        uri: `${settings.host}${settings.path}/${user}`,
-        qs: {
-            client_id: settings.clientId,
-            client_secret: settings.clientSecret,
-            min_id
-        },
-        json: true
-    });
+    const getOptions = (user, min_id) => {
+        let qs = {client_id: settings.clientId, client_secret: settings.clientSecret};
+        if(min_id)
+            qs = _.assign({}, qs, {min_id});
+
+        return {
+            uri: `${settings.host}${settings.path}/${user}`,
+            qs,
+            json: true
+        }
+    };
 
     const createResult = (result, user, lastCheckin) => {
         const checkins = getCheckinsFromResponse(result.response);
-        const filteredCheckins = _.filter(checkins, c => c.checkin_id > lastCheckin);
+
+        const filteredCheckins = _.filter(checkins, c => c.checkin_id > (lastCheckin || 0));
 
         console.info(`\tFound ${filteredCheckins.length} checkins for ${user}`);
         return {
